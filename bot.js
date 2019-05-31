@@ -12,7 +12,7 @@ const PREFIX = config.prefix;
 const queue = new Map();
 
 client.on('ready', async () => {
-    client.user.setGame("Music | d>lazyhelp");
+    client.user.setGame("Music");
     console.log("Ready");
 });
 
